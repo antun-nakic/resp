@@ -1,0 +1,19 @@
+/* Mobiteli ekrani */
+body{
+  background-color: yellow;
+}
+
+/* tableti */
+@media (min-width:480px){
+  body{
+    background-color: rgb(30, 255, 0);
+  }
+}
+
+/* veliki ekrani */
+@media (min-width:768px){
+  body{
+    background-color: blue;
+  }
+}
+
