@@ -1,4 +1,4 @@
-/* Veliki ekrani */
+/* Za sve ekrane */
 *{
   padding: 0;
   margin: 0;
@@ -21,6 +21,7 @@ main{
   background-color: rgb(215, 177, 177);
   flex-basis: 75%;
   height: 70vh;
+  padding: 15px;
 }
 aside{
   background-color: rgb(25, 175, 216);
@@ -37,12 +38,12 @@ footer{
 .divUmainu{
   width: 30%;
   padding: 15px;
-  margin:15px;
+  margin:15px 0px;
   background-color: aqua;
   border-radius: 15px;
 }
 
-/* tableti */
+/* tableti - (za ekrane manje od 768px) */
 @media (max-width:768px){
   main{
     flex-basis: 100%;
@@ -54,7 +55,9 @@ footer{
   }
 }
 
-/* mobiteli */
+/* mobiteli (za ekrane manje od 480px) */
 @media (max-width:480px){
-
+  .divUmainu{
+    width: 100%;
+  }
 }
